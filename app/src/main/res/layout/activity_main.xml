@@ -19,14 +19,14 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="New Button"
-            android:id="@+id/button" />
+            android:text="@string/btn_parametros"
+            android:id="@+id/btn_param" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="New Button"
-            android:id="@+id/button2" />
+            android:text="@string/btn_tabela"
+            android:id="@+id/btn_tabela" />
     </LinearLayout>
 
     <LinearLayout

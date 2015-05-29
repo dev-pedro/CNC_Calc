@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Parametros"
+            android:label="@string/title_activity_parametros" >
+        </activity>
+        <activity
+            android:name=".Tabela_rosca"
+            android:label="@string/title_activity_tabela_rosca" >
+        </activity>
     </application>
 
 </manifest>

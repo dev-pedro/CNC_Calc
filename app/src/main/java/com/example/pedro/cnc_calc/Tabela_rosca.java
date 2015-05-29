@@ -1,44 +1,28 @@
 package com.example.pedro.cnc_calc;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 
 
-public class MainActivity extends ActionBarActivity {
+public class Tabela_rosca extends ActionBarActivity {
+
+    String[] M = new String[]{"1","2", "3"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_tabela_rosca);
 
-        Button btn_param = (Button) findViewById(R.id.btn_param);
-        btn_param.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Parametros.class);
-                startActivity(intent);
-            }
-        });
 
-        Button btn_tab = (Button) findViewById(R.id.btn_tabela);
-        btn_tab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Tabela_rosca.class);
-                startActivity(intent);
-            }
-        });
+
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_main, menu);
+        //getMenuInflater().inflate(R.menu.menu_tabela_rosca, menu);
         return true;
     }
 

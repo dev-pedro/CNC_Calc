@@ -32,7 +32,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/editText2"
+            android:id="@+id/et_M"
             android:layout_weight="4"
             android:inputType="number"
             android:numeric="integer"
@@ -41,7 +41,8 @@
             android:textSize="30sp"
             android:textStyle="bold"
             android:layout_gravity="center"
-            android:gravity="center" />
+            android:gravity="center"
+            android:text="5" />
 
     </LinearLayout>
 
@@ -109,7 +110,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView11"
             android:layout_weight="1"
             android:gravity="center"
             android:text="@string/tv_frossa"
@@ -161,7 +161,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tv_fina_med"
+            android:id="@+id/tv_fina_M"
             android:layout_weight="1"
             android:textSize="18sp"
             android:gravity="center"
@@ -176,7 +176,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/tv_grossa_med"
+            android:id="@+id/tv_grossa_M"
             android:layout_weight="1"
             android:textSize="18sp"
             android:gravity="center"
@@ -227,7 +227,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4"
+            android:id="@+id/tv_externo_fina_M"
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="18sp"
@@ -242,7 +242,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5"
+            android:id="@+id/tv_externo_grossa_M"
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="18sp"
@@ -304,7 +304,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView10"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/tv_fina"
@@ -320,7 +319,6 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView11"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/tv_frossa"
@@ -372,7 +370,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tv_fina_med"
+                android:id="@+id/tv_fina_Ww"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 android:gravity="center"
@@ -387,7 +385,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/tv_grossa_med"
+                android:id="@+id/tv_grossa_Ww"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 android:gravity="center"
@@ -438,7 +436,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView4"
+                android:id="@+id/tv_externo_fina_Ww"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="18sp"
@@ -453,7 +451,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView5"
+                android:id="@+id/tv_externo_grossa_Ww"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="18sp"

@@ -8,7 +8,7 @@
     <string name="title_activity_parametros">Parametros</string>
     <string name="btn_parametros">Parametros</string>
     <string name="btn_tabela">Tabela de Rosca</string>
-    <string name="title_activity_tabela_rosca">Tabela Rosca</string>
+    <string name="title_activity_tabela_rosca">Tabela Rosca (Barra)</string>
     <string name="fina">Fina</string>
     <string name="tabela_rosca">Tabela de Rosca</string>
     <string name="btn_barra">BARRA</string>
@@ -17,5 +17,7 @@
     <string name="tv_fina">Fina</string>
     <string name="tv_frossa">Grossa</string>
     <string name="tv_passo">Passo</string>
-    <string name="tv_broca">Broca</string>
+    <string name="tv_broca">Ø externo</string>
+    <string name="tv_metrica">Métrica</string>
+    <string name="tv_whithworth">Whithworth</string>
 </resources>

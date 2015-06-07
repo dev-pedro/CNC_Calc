@@ -9,4 +9,13 @@
     <string name="btn_parametros">Parametros</string>
     <string name="btn_tabela">Tabela de Rosca</string>
     <string name="title_activity_tabela_rosca">Tabela Rosca</string>
+    <string name="fina">Fina</string>
+    <string name="tabela_rosca">Tabela de Rosca</string>
+    <string name="btn_barra">BARRA</string>
+    <string name="btn_furo">FURO</string>
+    <string name="tv_tamanho">Tamanho [M]</string>
+    <string name="tv_fina">Fina</string>
+    <string name="tv_frossa">Grossa</string>
+    <string name="tv_passo">Passo</string>
+    <string name="tv_broca">Broca</string>
 </resources>

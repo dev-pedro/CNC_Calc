@@ -1,8 +1,8 @@
 package com.example.pedro.cnc_calc;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,8 +25,8 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
-        Button btn_tab = (Button) findViewById(R.id.btn_tabela);
-        btn_tab.setOnClickListener(new View.OnClickListener() {
+        Button btn_barra = (Button) findViewById(R.id.btn_barra);
+        btn_barra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Tabela_rosca.class);

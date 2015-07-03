@@ -15,8 +15,6 @@ public class Tabela_rosca extends ActionBarActivity {
     EditText et_M;
     TextView passoFina_M, passoGrossa_M, externo_fina_M, externo_grossa_M;
     TextView passoFina_W, passoGrossa_W, externo_fina_W, externo_grossa_W;
-    Double P;
-    Double M;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,10 +50,13 @@ public class Tabela_rosca extends ActionBarActivity {
                 String[] array_passo_met_fina = getResources().getStringArray(R.array.passo_met_fina);
                 String[] array_d_int_met_fina = getResources().getStringArray(R.array.d_int_met_fina);
 
-                if (s.length() > 0 && s.length() < 9){
-                    int m = Integer.parseInt(et_M.getText().toString());
-                    passoFina_M.setText(array_passo_met_fina[m]);
-                    externo_fina_M.setText(array_d_int_met_fina[m]);
+                if (s.length() != 0){
+                    int num = Integer.parseInt(et_M.getText().toString());
+                    if (num != 0 && num < 43) {
+                        int m = Integer.parseInt(et_M.getText().toString());
+                        passoFina_M.setText(array_passo_met_fina[m]);
+                        externo_fina_M.setText(array_d_int_met_fina[m]);
+                    }
                 }else {
                     passoFina_M.setText("");
                     externo_fina_M.setText("");
@@ -64,14 +65,6 @@ public class Tabela_rosca extends ActionBarActivity {
             }
         });
 
-    }
-
-    private Double formula_M(double m){
-        return m;
-    }
-
-    private Double formula_Ww(double m){
-        return m;
     }
 
     @Override

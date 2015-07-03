@@ -2,6 +2,8 @@ package com.example.pedro.cnc_calc;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
@@ -34,12 +36,33 @@ public class Tabela_rosca extends ActionBarActivity {
         externo_grossa_M = (TextView) findViewById(R.id.tv_externo_grossa_M);
 
         et_M = (EditText) findViewById(R.id.et_M);
-        M = Double.parseDouble(et_M.getText().toString());
+        et_M.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
-        if (et_M != null){
-            formula_M(M);
-            passoFina_M.setText(M.toString());
-        }
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                String[] array_passo_met_fina = getResources().getStringArray(R.array.passo_met_fina);
+                String[] array_d_int_met_fina = getResources().getStringArray(R.array.d_int_met_fina);
+
+                if (s.length() > 0 && s.length() < 9){
+                    int m = Integer.parseInt(et_M.getText().toString());
+                    passoFina_M.setText(array_passo_met_fina[m]);
+                    externo_fina_M.setText(array_d_int_met_fina[m]);
+                }else {
+                    passoFina_M.setText("");
+                    externo_fina_M.setText("");
+                }
+
+            }
+        });
 
     }
 

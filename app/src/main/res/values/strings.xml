@@ -17,7 +17,7 @@
     <string name="tv_fina">Fina</string>
     <string name="tv_frossa">Grossa</string>
     <string name="tv_passo">Passo</string>
-    <string name="tv_broca">Ø externo</string>
+    <string name="tv_broca">Ø Broca</string>
     <string name="tv_metrica">Métrica</string>
     <string name="tv_whithworth">Whithworth</string>
 </resources>
